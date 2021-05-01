@@ -35,7 +35,7 @@ export default function Drawer ({
 
           </Box>
         )}
-        <Box as={drawerStyle}>{children}</Box>
+        <Box sx={drawerStyle}>{children}</Box>
       </RcDrawer>
       <Box className="drawer__handler" style={{display: 'inline-block'}} onClick={toggleHandler}>
         {drawerHandler}
